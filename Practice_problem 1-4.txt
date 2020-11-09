@@ -1,0 +1,9 @@
+take the data
+
+if level_of_interest >= 7:
+    very interested
+if 7 > level of interest > 3:
+    mediocrately interested
+else:
+    disinterested
+

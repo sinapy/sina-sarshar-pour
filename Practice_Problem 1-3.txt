@@ -1,0 +1,36 @@
+ask for choice from player1
+ask for choice from player2
+
+#...
+if player1's choice is rock and player2's choice is cysir:
+    player 1 wins
+
+if player1's choice is paper and player2's choice is cysir:
+    player 2 wins
+
+if player1's choice is cysir and player2's choice is cysir:
+    Tie
+
+#...
+if player1's choice is rock and player2's choice is rock:
+    Tie
+
+if player1's choice is paper and player2's choice is rock:
+    player 1 wins
+
+if player1's choice is cysir and player2's choice is rock:
+    player 2 wins
+
+#...
+if player1's choice is rock and player2's choice is paper:
+    player 2 wins
+
+if player1's choice is paper and player2's choice is paper:
+    Tie
+
+if player1's choice is cysir and player2's choice is paper:
+    player 1 wins
+
+count is count + 1
+if count < 8:
+    go to line 5
